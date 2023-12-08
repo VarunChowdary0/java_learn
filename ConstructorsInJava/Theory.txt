@@ -1,0 +1,18 @@
+* A "Constructor" is special type of method that is used to 
+  initialze an Object.
+
+* A "Constructor" is invoked when an Object is created, It
+    Constructs the values ie., provides data to the Object.
+
+** RULES: 
+    1 -> A "Constructor" should have same name as its "class" name.
+    2 -> "Constructor" should not have any explicite return type.
+
+** TYPES:
+    1 -> Default Constructor ( no-args) // refer : ./DefaultConstructor
+    2 -> Parameterized Constructor
+
+** Constructor Overloading:
+    Giving multiple types of Parameters
+    refer : ./ConstructorOverLoading/Example_112.java
+
