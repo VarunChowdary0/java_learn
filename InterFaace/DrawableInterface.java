@@ -13,7 +13,19 @@ class Square implements draw{
         System.out.println("And Square resized");
     }
 }
+/**
+ * abstract class T0 implements draw{
+        public void shape(){
+            System.out.println("This is Triangle");
+        }
 
+    }
+    class Triangle extends T0{
+        public void resize(){
+            System.out.println("Trinagle Resized");
+        }
+    }
+ */
 class Triangle implements draw{
     public void shape(){
         System.out.println("This is Triangle");

@@ -1,0 +1,41 @@
+abstract class :
+    An abstract class may have abstract methods
+    ex : abstract void MethodName();  // no implimentation;
+
+    -> This abstract method can be implimented in future by 
+        extending this abstract class and overloading the method's
+         implimentation.
+
+    -> Unless all the abstract method have implimentation, This 
+        class cannot be instanced { object cannot be created }
+
+
+*** {
+
+    -> In a multilevel inheritence.
+
+    // consider a parent - class 
+        class parent1{
+
+        } 
+    // consider child - class -1 extending parent
+        class Child1 extends parent{
+
+        }
+    // consider child - class -2 extending parent
+        class Child2 extends Child1{
+
+        }
+
+    // Now ,
+    public class MainClass33{
+        psvm(){
+
+            parent c1 = new Child2;
+            Child1 c2 = new Child2;
+            Child2 c3 = new Child2;
+
+           *** // all three instancing makes the object for the "Child2"  in abstract or interface.
+        }
+    }
+}

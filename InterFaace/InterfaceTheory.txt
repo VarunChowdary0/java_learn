@@ -1,0 +1,11 @@
+Interface :
+    An interface is a blueprint of a class. It has 
+    static constants and abstract methods
+
+    -> Interface mechanism can be used to achive abstraction
+        in java.
+
+    Reasons to use Interface: 
+    -> abstraction
+    -> functionallity of multiple inheritence.
+    -> loose coupling. -->? 
