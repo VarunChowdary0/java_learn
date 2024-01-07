@@ -1,0 +1,15 @@
+Multithreading : 
+    It is a process in execution that execuites multiple threads simultaineously.
+
+The life cycle of the thread:
+---------------------------
+    1. New
+    2. Runnable
+    3. Running
+    4. Non-Runnable (Blocked)
+    5. Terminated
+
+There are two ways to create a thread:
+-------------------------------------
+    1. By extending Thread class
+    2. By implementing Runnable interface.
