@@ -1,0 +1,16 @@
+Connection to Database :
+=====================
+
+
+JDBC Driver : 
+-----------
+    => JDBC implements the defined interface in the JDBC API to interact with database server.
+
+    * java.sql
+
+    JDBC Driver Types: 
+        Type 1 : JDBC ODBC Bridge Driver ::
+        Type 2 : JDBC Native API ::
+        Type 3 : JDBC Net Pure ::
+        Type 4 : JDBC 100% Pure java ::
+

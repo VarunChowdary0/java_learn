@@ -1,0 +1,92 @@
+
+Files :
+=====
+    java.io package in java has every class to handle I/O operations.
+
+Stream :
+======
+    Sequence of Data.
+    Two Types : 
+        ->  Input Stream
+        ->  Output Stream
+
+On basis of Data Transfer Streams is divide into 
+-> Byte Stream
+-> Character Stream
+
+
+Byte Stream:
+===========
+        It is only used to preform Byte ( 8 bites ) data through Input or Output.
+
+        Example : Images , Character , Videos ,  Byte data , Audios.
+
+        -> Classes used are FileInputStream (reads 1 byte at once ) ,
+            FileOutputStream ( writes 1 byte at once ) .
+
+        Reference :
+            ->> ./CopyFileUsingByteStream
+
+Character Stream:
+================
+        It is only used to preform Input and Outputs for 16 bit unicodes. 
+
+        -> Classes used are FileReader ( reads 2 bytes at once ) ,
+            FileWirter ( write 2 Bytes at once ) .  
+
+
+Standard Stream:
+===============
+    [ InputStreamReader ] // used for console input
+    Taking input form user and giving Output to user.
+
+    1. Standard Input       [System.in]
+    2. Standard Output      [System.out]
+    3. Standard Error       [System.err]
+
+    Reference :
+        ->> ./ReadFromConsole.java
+
+Reading and Writing Files:
+=========================
+    InputStream is used to read data form file 
+    OutputStream is used to write into file
+
+    InputStream : 
+        1 -> FileInputStream
+        2 -> ByteArrayInputStream
+        3 -> FilterInputStream --------> BufferedInputStream
+        4 -> ObjectInputStream      |__>
+                                       >  DataInputStream
+
+    OutputStream :
+        1 -> FileInputStream
+        2 -> ByteArrayOutputStream
+        3 -> FilterOutputStream   ---------> BufferedOutputStream
+        4 -> ObjectOutputStream         |___>
+                                            >  DataOutputStream
+
+
+Random File Access : 
+==================
+    java.io.RandomAccessFile, RandomAccessFile act as a large array of bytes stored 
+    in a file Stream.
+    
+    RandomAccessFile class implements DataOutput , DataInput , Closeable interfaces.
+
+    Constructors : 
+        ->    RandomAccessFile(File file,String mode)
+        ->    RandomAccessFile(String name,String mode)
+
+    
+File Class :
+==========
+        java.io.File
+
+        -> Represents the file or directory path name.
+        
+     
+
+
+
+
