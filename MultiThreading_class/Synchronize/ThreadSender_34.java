@@ -1,4 +1,4 @@
-package MultiThreading.Synchronize;
+package MultiThreading_class.Synchronize;
 
 public class ThreadSender_34 extends Thread {
     private String msg ;

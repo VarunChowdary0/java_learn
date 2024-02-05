@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading_class;
 
 public class TheadingDemo {
     public static void main(String[] args) {

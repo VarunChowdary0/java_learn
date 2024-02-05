@@ -1,4 +1,4 @@
-package MultiThreading.Synchronize;
+package MultiThreading_class.Synchronize;
 
 public class Sender_112 {
     public synchronized void send(String msg){

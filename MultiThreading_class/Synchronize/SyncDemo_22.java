@@ -1,4 +1,4 @@
-package MultiThreading.Synchronize;
+package MultiThreading_class.Synchronize;
 
 public class SyncDemo_22 {
     public static void main(String[] args) {

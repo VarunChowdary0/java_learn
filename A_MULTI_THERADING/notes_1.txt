@@ -1,0 +1,153 @@
+MultiThreading : 
+--------------
+    MultiThreading in java means execution multiple therads at once/simultaneously.
+
+Thread :
+------  
+    Thread is smallest light-weight unit of a process. MultiProcessing and MultiThreading
+    are used to achive Multi-Tasking.
+
+    -> But MultiThreading is more used than MultiProcessing beacouse, Threads share common
+        memory area. And don't allocate seprate memory, and switching between is fast.
+
+    -> MultiThreading is mostly used in games and animations.
+
+Advantages of MultiThreading:
+----------------------------
+
+        In java a Thread can be in following three states:
+        1 -> New,
+        2 -> Runnable,
+        3 -> Non-Runnable ( Blocked ) ,
+        4 -> Terminated.
+        <5-> And there is no " Running " state in java.
+        -> For better understanding we include "Running" State.</>
+
+        -> Thread life-cycle is controlled by JVM.
+
+        Thread Life-Cycle :
+        =================
+
+                            NEW 
+                             |
+                             |
+                          Runnable
+                             |       \       
+                             |        \
+                             |         \_______________
+                             |          | Non-Runnable |
+                             |          ================
+                             |         /     
+                             |        /
+                             |       /
+                           Running
+                             |
+                             |
+                         Terminated
+
+Creating Thread in JAVA : 
+-----------------------
+    Two Ways : 
+    1 ->> By extending  ' Thread ' class.
+    2 ->> By implementing ' Runnable ' interface.
+
+Thread class :
+======-------
+
+        Thread class provides ' Constructors ' , ' methods ' to perform operations on 
+        a therad. 
+        
+        -> Thread class extends 'Object' class and implements 'Runnable' interface.
+
+_____________
+|Thread class| ---> extends [ Object class ]  
+============= ----> implements 'Runnable' interface.
+
+        Thread class Constructors : 
+        ---------------------------
+
+        -> Thread()
+        -> Thread(String name)
+        -> Thread(Runnable r)
+        -> Thread(Runnable r,String name)
+
+        Methods of Thread class:
+        -----------------------
+
+        -> public void run() : performs action for a thread.
+        -> public void start() : execution of the thread , JVM class run();
+        -> public void sleep(long milliseconds) : puts therad to sleep.
+        -> public void join() : waits for a thread to terminate.
+        -> public void join(long milliseconds) : waits for a thread to terminate 
+                                                for time of 'milliseconds' 
+        -> public int getPriority() : returns the priority of the thread .
+        -> public int setPriority(int priority) : sets thread priority .
+        -> public String getName() : returns thread name.
+        -> public void setName() : sets thread name.
+        -> public Thread currentThread(): returns reference of current thread.
+        -> public int getId() : returns Id of the therad.
+        -> public Thread.State threadState() : returns current state of thread.
+        -> public boolean isAlive() : returns true if therad is active. 
+        -> public void yeild() : pauses current thread and executes other threads.
+        -> public void suspend() : suspends the thread.
+        -> public void resume() : resumes the suspend thread.
+        -> public void stop() : stops the thread.
+        -> public boolean isDaemon() : tests if it id Daemon(Main/Admin) thread.
+        -> public void setDaemon(boolean b) : sets Daemon status of the thread.
+        -> public void interrupt() : interrupts the thread.
+        -> public boolean isInterrupted() : tests if it is Interrupted thread.
+
+_____________________
+| Runnable interface | 
+=====================
+
+    Runnable interface should be implemented by a class whose instances are intended to
+    be executed by a thread.
+
+    -> Runnable interface has only one method : public void run() :
+                                                    -> used to perform action for a thread.
+
+Starting a Thread: 
+=================
+    start() method in Thread clas is used to start newly created thread.It performs ->>
+        -> new Thread starts ( callstack ).
+        -> Thread moves form 'new state' to 'Runnable' 
+        -> When the thread gets chance to execute, run() method will run.
+
+    Reference : 
+    [1] ./CreatingAndStartingThread.java
+    [2] ./CreatingThreadByRunnable.java
+
+Priority of a Thread:
+====================
+        Each therad has a priority. Priority of therad is represented by a number from 1 
+         to 10.
+
+        -> In Thread there are 3 constants for Priority of a therad
+            ->> MAX_PRIORITY   <- 10
+            ->> NORM_PRIORITY   <- 5
+            ->> MIN_PRIORITY    <- 1
+
+        <-OO-> : use threadName.getPriority();
+
+        Reference : 
+            ->> ./ThreadPriority_233.java
+        
+java Synchronized Method:
+========================
+    If you declare the function a synchronized, then it is called a Synchronized Method.
+    -> it  typically uses lock() of an object and releases when completed.
+
+    Example : Inter thread communication in java.
+
+    Reference : 
+        ->> ./SynchronisedExample.java
+
+InterThreadCommunication (or) Thread Grouping :
+=======================       ===============
+
+    :  ON HOLD :
+
+        
+
+ 
