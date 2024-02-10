@@ -14,3 +14,6 @@ JDBC Driver :
         Type 3 : JDBC Net Pure ::
         Type 4 : JDBC 100% Pure java ::
 
+Reference : 
+    ->> ./UpdateUsernamePassword.java
+    ->> ./JDBCClassSolve.java
