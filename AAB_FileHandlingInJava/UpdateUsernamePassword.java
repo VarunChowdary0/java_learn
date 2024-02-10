@@ -17,6 +17,8 @@ public class UpdateUsernamePassword {
             Statement statement = connection.createStatement();
             statement.executeUpdate("CREATE TABLE USERS(USERNAME VARCHAR(15) , PASSWORD VARCHAR(15))");
 
+            connection.commit();
+
             statement.executeUpdate
             ("UPDATE USERS SET PASSWORD = "+"'99898'"+" WHERE USERNAME = 'VARUN099'");
 
