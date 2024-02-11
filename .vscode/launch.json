@@ -1,0 +1,413 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CopyFileUsingByteStream",
+            "request": "launch",
+            "mainClass": "AAB_FileHandlingInJava.CopyFileUsingByteStream",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "CopyFileUsingCharacterStream",
+            "request": "launch",
+            "mainClass": "AAB_FileHandlingInJava.CopyFileUsingCharacterStream",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "JDBCClassSolve",
+            "request": "launch",
+            "mainClass": "AAB_FileHandlingInJava.JDBCClassSolve",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "ReadFromConsole",
+            "request": "launch",
+            "mainClass": "AAB_FileHandlingInJava.ReadFromConsole",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "TheFIleClass",
+            "request": "launch",
+            "mainClass": "AAB_FileHandlingInJava.TheFIleClass",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "UpdateUsernamePassword",
+            "request": "launch",
+            "mainClass": "AAB_FileHandlingInJava.UpdateUsernamePassword",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "CreatingAndStartingThread",
+            "request": "launch",
+            "mainClass": "A_MULTI_THERADING.CreatingAndStartingThread",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "CreatingThreadByRunnable",
+            "request": "launch",
+            "mainClass": "A_MULTI_THERADING.CreatingThreadByRunnable",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "MultithreadDemo",
+            "request": "launch",
+            "mainClass": "A_MULTI_THERADING.MultithreadDemo",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "SynchronisedExample",
+            "request": "launch",
+            "mainClass": "A_MULTI_THERADING.SynchronisedExample",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "ThreadPriority_233",
+            "request": "launch",
+            "mainClass": "A_MULTI_THERADING.ThreadPriority_233",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "AbsExamplePrg",
+            "request": "launch",
+            "mainClass": "AbstractClass.AbsExamplePrg",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "DemstrateAbstractClass",
+            "request": "launch",
+            "mainClass": "AbstractClass.DemstrateAbstractClass",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "PublicExample",
+            "request": "launch",
+            "mainClass": "AccessControl.PublicExample",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Addnumbers",
+            "request": "launch",
+            "mainClass": "Addnumbers",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "PasswordBox",
+            "request": "launch",
+            "mainClass": "Applets_and_GUI.AppletByHtml.PasswordBox",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "BorderTest",
+            "request": "launch",
+            "mainClass": "Applets_and_GUI.BorderTest",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "CallByValue__",
+            "request": "launch",
+            "mainClass": "CallByValue_CallByRef.CallByValue__",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "ConsoleExample",
+            "request": "launch",
+            "mainClass": "ConsoleInp.ConsoleExample",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Example_112",
+            "request": "launch",
+            "mainClass": "ConstructorsInJava.ConstructorOverLoading.Example_112",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "DefaultConstructor",
+            "request": "launch",
+            "mainClass": "ConstructorsInJava.DefaultConstructor",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "ParameterizedConstructor",
+            "request": "launch",
+            "mainClass": "ConstructorsInJava.ParameterizedConstructor",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "EnumExample",
+            "request": "launch",
+            "mainClass": "Enum.EnumExample",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Fibbonaci_",
+            "request": "launch",
+            "mainClass": "Fibbonaci_",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "CopyFile",
+            "request": "launch",
+            "mainClass": "Files__33.CopyFile",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "CreatingFile",
+            "request": "launch",
+            "mainClass": "Files__33.CreatingFile",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "ReadAFile_234",
+            "request": "launch",
+            "mainClass": "Files__33.ReadAFile_234",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "TryCatchCreate",
+            "request": "launch",
+            "mainClass": "Files__33.TryCatchCreate",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "WordCount",
+            "request": "launch",
+            "mainClass": "Files__33.WordCount",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "WriteInAFile",
+            "request": "launch",
+            "mainClass": "Files__33.WriteInAFile",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "First",
+            "request": "launch",
+            "mainClass": "First",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "DemonstrateSuper",
+            "request": "launch",
+            "mainClass": "Inheretance.DemonstrateSuper",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "DrawableInterface",
+            "request": "launch",
+            "mainClass": "InterFaace.DrawableInterface",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceWithAbstract",
+            "request": "launch",
+            "mainClass": "InterFaace.InterfaceWithAbstract",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "DOwhileQ",
+            "request": "launch",
+            "mainClass": "Module_1_prgs.DOwhileQ",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Fiboonacci100",
+            "request": "launch",
+            "mainClass": "Module_1_prgs.Fiboonacci100",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Power__",
+            "request": "launch",
+            "mainClass": "Module_1_prgs.Power__",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "RandomGame",
+            "request": "launch",
+            "mainClass": "Module_1_prgs.RandomGame",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Trinagle_32",
+            "request": "launch",
+            "mainClass": "Module_1_prgs.Trinagle_32",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "cmdLine",
+            "request": "launch",
+            "mainClass": "Module_1_prgs.cmdLine",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "SyncDemo_22",
+            "request": "launch",
+            "mainClass": "MultiThreading_class.Synchronize.SyncDemo_22",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "TheadingDemo",
+            "request": "launch",
+            "mainClass": "MultiThreading_class.TheadingDemo",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "MyCalCulator",
+            "request": "launch",
+            "mainClass": "MyCalCulator",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Problem_1",
+            "request": "launch",
+            "mainClass": "Problem_1",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Q1",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Q2",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "DemoConnection",
+            "request": "launch",
+            "mainClass": "SQL_CONNECTON.DemoConnection",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCalculator",
+            "request": "launch",
+            "mainClass": "SimpleCalculator",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "BufferStreamClass",
+            "request": "launch",
+            "mainClass": "Streams.BufferStreamClass",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "CharacterStreamExple",
+            "request": "launch",
+            "mainClass": "Streams.CharacterStreamExple",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "SwingFirst",
+            "request": "launch",
+            "mainClass": "SwingFirst",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "SwingSecond",
+            "request": "launch",
+            "mainClass": "SwingSecond",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "SyncDemo",
+            "request": "launch",
+            "mainClass": "SyncDemo",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "InterThreadCommuncation",
+            "request": "launch",
+            "mainClass": "ThreadCommunication.InterThreadCommuncation",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "Tringle",
+            "request": "launch",
+            "mainClass": "Tringle",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "_AddNumbers",
+            "request": "launch",
+            "mainClass": "_AddNumbers",
+            "projectName": "Programs___e178c185"
+        },
+        {
+            "type": "java",
+            "name": "prg_2",
+            "request": "launch",
+            "mainClass": "prg_2",
+            "projectName": "Programs___e178c185"
+        }
+    ]
+}

@@ -9,9 +9,8 @@ public class ThreadSender_34 extends Thread {
         sender = Obj;
     }
     public void run(){
-        // synchronized(sender){
-            
-        // }
-        sender.send(msg);
+        synchronized(sender){
+            sender.send(msg);
+        }
     } 
 }
