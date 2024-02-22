@@ -9,7 +9,7 @@ class InvalidAgeException extends Exception{
 class TestAgeException{
     void Validate(int age) throws InvalidAgeException{
         if(age<18){
-            throw new InvalidAgeException("Invalid AgE Exception");
+            throw new InvalidAgeException("Invalid Age Exception");
         }
         else{
             System.out.println("Welcome !");

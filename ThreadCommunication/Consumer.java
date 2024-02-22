@@ -10,6 +10,7 @@ public class Consumer extends Thread {
             try{
                 sleep(500);
                 int temp = item.getVal();
+                System.out.println(temp);
             }
             catch(InterruptedException e){
                 e.printStackTrace();
