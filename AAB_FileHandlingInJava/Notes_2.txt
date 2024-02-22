@@ -9,7 +9,7 @@ Stream :
     Two Types : 
         ->  Input Stream
         ->  Output Stream
-
+ 
 On basis of Data Transfer Streams is divide into 
 -> Byte Stream
 -> Character Stream

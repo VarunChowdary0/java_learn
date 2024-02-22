@@ -1,0 +1,20 @@
+Computer arithmetic involves performing mathematical operations such as addition, subtraction, multiplication, and division using binary representations of numbers within a computer system. Here's a brief overview of each:
+
+Addition and Subtraction:
+
+Addition and subtraction in computers are typically performed using binary arithmetic. It follows the same principles as decimal arithmetic but operates in base-2 instead of base-10.
+The addition and subtraction operations are carried out using basic logic gates like AND, OR, and XOR gates at the hardware level.
+In addition, binary addition can result in carry-out bits, which must be considered to avoid errors in the result.
+Floating Point Arithmetic:
+
+Floating-point arithmetic is used to represent and manipulate non-integer numbers (i.e., numbers with a fractional part) in computers.
+Floating-point numbers are represented as a sign bit, a fixed number of significant digits (mantissa), and an exponent which determines the scale of the number.
+Arithmetic operations (addition, subtraction, multiplication, division) on floating-point numbers involve normalization, rounding, and handling of special cases like overflow, underflow, and NaN (Not a Number).
+Floating-point arithmetic units are typically implemented in hardware to accelerate these operations due to their computational complexity.
+Decimal Arithmetic Unit:
+
+A decimal arithmetic unit performs arithmetic operations using decimal (base-10) representations of numbers.
+While computers primarily use binary arithmetic, decimal arithmetic units can be useful in applications where decimal precision is critical, such as financial calculations.
+Decimal arithmetic units handle decimal numbers with decimal point placement and rounding according to decimal arithmetic rules.
+These units can be implemented in hardware or software, with specialized algorithms optimized for decimal operations.
+In summary, computer arithmetic involves various techniques and hardware implementations to perform basic arithmetic operations and handle floating-point numbers, with decimal arithmetic units providing an alternative for applications requiring decimal precision.
