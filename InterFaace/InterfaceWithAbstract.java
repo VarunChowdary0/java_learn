@@ -51,7 +51,7 @@ class AbsExtender4 extends AbsExtender3{
         System.out.println("Reminder :"+(a%b));
     }
 }
-public class InterfaceWithAbstract {
+public final class InterfaceWithAbstract {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         AbstactImpelmenter cal = new AbsExtender4();

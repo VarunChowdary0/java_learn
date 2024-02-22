@@ -1,10 +1,6 @@
 package Module_1_prgs;
-
-import java.net.Socket;
 import java.util.Random;
 import java.util.Scanner;
-
-import javax.imageio.stream.MemoryCacheImageInputStream;
 
 /**
  * Write a program that generates a
